@@ -1,0 +1,4 @@
+#name : @array = readdir(VAR)
+# --
+@${1:dir} = readdir(${2:DIR});
+

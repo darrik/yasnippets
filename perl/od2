@@ -1,0 +1,6 @@
+#name : opendir(VAR, ...) ... @array = readdir(VAR) ... closedir(VAR)
+# --
+opendir(${1:DIR}, "${2:.}") or die "Couldn't open dir \"$2\":$!\n";
+@${3:dir} = readdir($1);
+closedir($1) or warn "Couldn't close dir \"$2\":$!\n";
+

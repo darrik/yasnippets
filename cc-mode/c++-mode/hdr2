@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name : hdr
+# contributor : Rikard Glans
+# Time-stamp: <2012-05-13 18:00:05>
+# --
+/**
+ * Copyright (c) ${1:`(insert (format-time-string "%Y"))`} ${2:`user-full-name`}. All Rights Reserved.
+ *
+ * Time-stamp: <>
+ */
+
+#include <iostream>
+$0
