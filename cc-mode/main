@@ -1,0 +1,7 @@
+# name: int main(argc, argv) { ... }
+# Time-stamp: <2012-05-14 01:24:29>
+# --
+int main(int argc, char *argv[]) {
+    $0
+    return(0);
+}
