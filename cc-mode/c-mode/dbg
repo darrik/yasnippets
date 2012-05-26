@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name : dbg
+# contributor : Rikard Glans
+# Time-stamp: <2012-05-26 19:13:23>
+# --
+printf("[DEBUG]: %s\n", ${1:var});
